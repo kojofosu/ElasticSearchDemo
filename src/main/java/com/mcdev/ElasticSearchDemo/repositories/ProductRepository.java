@@ -1,6 +1,6 @@
 package com.mcdev.ElasticSearchDemo.repositories;
 
-import com.mcdev.ElasticSearchDemo.Product;
+import com.mcdev.ElasticSearchDemo.models.Product;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 import java.util.List;

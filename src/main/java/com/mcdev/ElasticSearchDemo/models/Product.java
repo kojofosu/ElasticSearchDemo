@@ -1,10 +1,18 @@
-package com.mcdev.ElasticSearchDemo;
+package com.mcdev.ElasticSearchDemo.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Document(indexName = "productindex")
 public class Product {
     @Id

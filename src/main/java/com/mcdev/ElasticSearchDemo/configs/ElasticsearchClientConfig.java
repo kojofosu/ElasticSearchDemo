@@ -1,4 +1,4 @@
-package com.mcdev.ElasticSearchDemo;
+package com.mcdev.ElasticSearchDemo.configs;
 
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.context.annotation.Bean;
